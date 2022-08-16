@@ -4,8 +4,8 @@
   "description": "API code examples for JavaScript Everywhere by Adam Scott, published by O'Reilly Media",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index.js",
-    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "start:dev": "nodemon src/index.js",
     "final": "nodemon final/index.js",
     "seed": "node final/util/seed/index.js",
     "lint": "eslint \"src/**/*.js\""
@@ -38,7 +38,7 @@
     "marked": "0.7.0",
     "md5": "2.2.1",
     "mongoose": "5.7.13",
-    "nodemon": "1.18.7",
+    "nodemon": "^1.18.7",
     "passport": "0.4.0",
     "passport-github2": "0.1.11"
   },
